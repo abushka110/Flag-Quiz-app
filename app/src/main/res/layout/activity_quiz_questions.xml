@@ -15,7 +15,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/questionText"
+            android:id="@+id/tv_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -57,8 +57,66 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:textSize="14sp"
-                tools:text="@string/progressText"
+                tools:text="@string/progressText"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/question_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/colorCardSecondary"
+            android:textSize="18sp"
+            android:text="@string/option_one"/>
+
+        <TextView
+            android:id="@+id/question_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/colorCardSecondary"
+            android:textSize="18sp"
+            android:text="@string/option_two"/>
+
+        <TextView
+            android:id="@+id/question_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/colorCardSecondary"
+            android:textSize="18sp"
+            android:text="@string/option_three"/>
+
+        <TextView
+            android:id="@+id/question_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/colorCardSecondary"
+            android:textSize="18sp"
+            android:text="@string/option_four"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/question_btnSubmit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
