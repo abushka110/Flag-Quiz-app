@@ -5,4 +5,7 @@
     <string name="card_secondText">Enter your name</string>
     <string name="card_inputHintText">e.g. Oleh</string>
     <string name="btn_startText">Start</string>
+    <string name="quiz_image">Quiz Image</string>
+    <string name="questionText">What country does this flag belong to?</string>
+    <string name="progressText">0/10</string>
 </resources>
