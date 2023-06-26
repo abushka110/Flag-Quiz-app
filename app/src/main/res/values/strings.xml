@@ -8,4 +8,9 @@
     <string name="quiz_image">Quiz Image</string>
     <string name="questionText">What country does this flag belong to?</string>
     <string name="progressText">0/10</string>
+    <string name="option_one">Austria</string>
+    <string name="option_two">Germany</string>
+    <string name="option_three">Belgium</string>
+    <string name="option_four">Denmark</string>
+    <string name="question_btnSubmit">SUBMIT</string>
 </resources>
