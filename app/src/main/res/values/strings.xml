@@ -13,4 +13,10 @@
     <string name="option_three">Belgium</string>
     <string name="option_four">Denmark</string>
     <string name="question_btnSubmit">SUBMIT</string>
+    <string name="result">Result</string>
+    <string name="image">image</string>
+    <string name="hey_congratulations">Hey, congratulations!</string>
+    <string name="username">Username</string>
+    <string name="your_score">Your Score is 9 out of 10</string>
+    <string name="finish">FINISH</string>
 </resources>
